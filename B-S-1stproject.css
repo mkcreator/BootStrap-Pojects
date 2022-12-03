@@ -1,0 +1,105 @@
+.navlogo{
+    font-family: 'Festive', cursive;
+    font-weight: 600;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+.sevices{
+    margin-top: 50px;
+}
+img {
+    page-break-inside: avoid;
+    height:500px;
+    width:50%;
+}
+.cad{
+    padding-top:50px;
+}
+.colhead{
+    padding-top:50px;
+}
+.see-more{
+    margin-top:30px;
+    margin-left:220px;
+}
+.head{
+  margin-left:100px;
+}
+.about-h1{
+    font-style:unset;
+    font-weight: bold;
+}
+.about-p{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.img-border{
+    border-top-left-radius:150px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 150px;
+}
+h2{
+    margin-left:85px;
+    text-shadow: 0.5px 1.5px 1px black;
+}
+p{
+    
+    font-family: Times, Times New Roman, serif;
+    color:white;
+ 
+    
+}
+.p1{
+   text-align: center; 
+   color: gray;
+}
+.p2{
+    margin-left: 75px;
+}
+#p3{
+    color:gray;
+   text-shadow: none;
+}
+.text{
+    text-align: center;
+}
+.details{
+    margin-left:110px;
+}
+.img{
+    height: 500px;
+    width: 500px;
+}
+.card{
+    margin-top: 20px;
+}
+.footer{
+    margin-top:40px;
+    background-color: gray;
+    color: white;
+}
+.container{
+    margin-top:30px;
+}
+.contact-us{
+    margin-top:-50px;
+}
+.About{
+    margin-top:50px;
+}
+.sign-up{
+    height: 490px;
+}
+.sign-up1{
+    height: 550px;
+    margin-top: -60px;
+    border-radius: 50px;
+}

@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="login.html">
+    <link rel="shortcut icon" href=" images/unilogo.png">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="B-S-1stproject.html">
+    <link rel="stylesheet" href="B-S-1stproject.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Sign up</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:gray ">
+        <div class="container-fluid">
+            <a class="navbar-brand navlogo" href="#" f>Mujeeb khan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page"
+                            href="C:\Users\Faizan Comp\Desktop\Bootstrip webpage\B-S-1stproject.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:\Users\Faizan Comp\Desktop\Bootstrip webpage\About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page"
+                            href="C:\Users\Faizan Comp\Desktop\Bootstrip webpage\contact.html">contact us </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Technology</a></li>
+                            <li><a class="dropdown-item" href="#">Web Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Web design</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                <a href="C:\Users\Faizan Comp\Desktop\Bootstrip webpage\login.html"><button type="button"
+                        class="btn btn-outline-primary">Login</button></a>
+                <a href="C:\Users\Faizan Comp\Desktop\Bootstrip webpage\sign.html"> <button type="button"
+                        class="btn btn-outline-danger active">Sign up</button></a>
+            </div>
+        </div>
+    </nav>
+    <!------sign up fram----->
+    <div class="modal modal-signin position-static d-block bg-secondary py-5 sign-up" tabindex="-1" role="dialog"
+        id="modalSignin">
+        <div class="modal-dialog sign-up" role="document">
+            <div class="modal-content rounded-5 shadow sign-up1">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                    <!-- <h5 class="modal-title">Modal title</h5> -->
+                    <h2 class="fw-bold mb-0">Sign up for free</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body p-5 pt-0 sign-up1">
+                    <form class="">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-4" id="floatingInput"
+                                placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-4" id="floatingPassword"
+                                placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Sign up</button>
+                        <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                        <hr class="my-4">
+                        <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-4" type="submit">
+                            <svg class="bi me-1" width="16" height="16">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                            Sign up with Twitter
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-4" type="submit">
+                            <svg class="bi me-1" width="16" height="16">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                            Sign up with Facebook
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-4" type="submit">
+                            <svg class="bi me-1" width="16" height="16">
+                                <use xlink:href="#github"></use>
+                            </svg>
+                            Sign up with GitHub
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
